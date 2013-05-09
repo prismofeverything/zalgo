@@ -131,10 +131,7 @@
 
 (defn rand-zalgo
   [zalgo n]
-  (map
-   (fn [_]
-     (rand-nth zalgo))
-   (repeat n 0)))
+  (repeatedly n #(rand-nth zalgo)))
 
 (defn zalgoize-char
   [density]
