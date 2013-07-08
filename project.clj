@@ -1,4 +1,4 @@
-(defproject zalgo "6.6.6"
+(defproject zalgo "11.6.13"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
