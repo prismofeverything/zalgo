@@ -6,6 +6,8 @@ Zalgo Generator for Clojure
 
 ## Usage
 
+[![Clojars Project](http://clojars.org/zalgo/latest-version.svg)](http://clojars.org/zalgo)
+
 ```clj
 (require '[zalgo.core :as zalgo])
 (zalgo/zalgoize "Hello World")
